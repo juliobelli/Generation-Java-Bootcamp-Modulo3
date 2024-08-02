@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registrar</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="center">
+            <h1>Formulário de Registro</h1>
+            <form>
+                <p>Usuario</p>
+                <input class = "usuario" onkeyup="validarUsuario()" type="text" name="user" placeholder="seu nome de usuário"><br>
+                <div id = "txtUsuario"></div>
+                <p>Email</p>
+                <input class = "email" onkeyup="validarEmail()" type="email" name="email" placeholder="seu email"><br>
+                <div id = "txtEmail" class="txt"></div>
+                <p>Senha</p>
+                <input class = "senha" onkeyup="validarSenha()" type="password" name="senha" placeholder="sua senha"><br><br>
+                <div id = "txtSenha" class="txt"></div>
+                <input class = "enviar" type="submit" value="Enviar" onclick="enviar()">
+            </form>
+        </div>
+        <div class="link">
+            <p><a href="index.html">Logar-se</a></p>
+        </div>
+        <script  src="assets/js/script.js"></script>
+    </body>
+</html>

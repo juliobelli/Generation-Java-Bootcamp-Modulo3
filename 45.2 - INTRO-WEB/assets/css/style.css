@@ -1,0 +1,43 @@
+/*Estilos gerais*/
+.center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: arial, sans-serif ;
+}
+.center p {
+    padding: 5px;
+    margin: 0;
+}
+
+.link{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: arial, sans-serif ;
+}
+.link p a{
+    text-decoration: none;
+    padding: 20px;
+    color:black
+}
+
+.link p a:hover{
+    color: gray;
+}
+
+.enviar {
+    width: 180px;
+    height: 35px;
+}
+
+.txt{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: arial, sans-serif ;
+}
+/*Estilos do index.html */
+
+
+/*Estilos do registro.html */
